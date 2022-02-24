@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    height: 5rem;
+    background-color: #2B89EA;
+}
+
+.logo {
+    display: flex;
+    font-weight: 500;
+    letter-spacing: .08rem;
+    color: white;
+    align-items: center;
+    margin: auto 1rem;
+}
+
+
+/* .logo img {
+    height: 1.7rem;
+    margin-right: .2rem;
+}
+
+.ham-menu {
+    margin: auto 1rem;
+} */
+
+@media screen and (min-width: 675px) {
+    .content {
+        background-color: aquamarine;
+    }
+}
+
+
+/* transition: 0.3s ease-out; */
