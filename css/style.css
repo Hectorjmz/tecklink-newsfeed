@@ -12,6 +12,7 @@ body {
 
 .content {
     display: flex;
+    justify-content: space-between;
     height: 5rem;
     background-color: #2B89EA;
 }
@@ -25,15 +26,18 @@ body {
     margin: auto 1rem;
 }
 
-
-/* .logo img {
+.logo img {
     height: 1.7rem;
     margin-right: .2rem;
 }
 
 .ham-menu {
     margin: auto 1rem;
-} */
+}
+
+.ham-menu img {
+    height: 1.7rem;
+}
 
 @media screen and (min-width: 675px) {
     .content {
