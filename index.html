@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
     <script src="./script.js"></script>
-    
+
     <title>Document</title>
 </head>
 
@@ -22,13 +22,13 @@
                 <span>TeckLink</span>
             </div>
             <div class="ham-menu">
-                <img id="menuIcon" onclick="myFunction()" src="./images/header/icon-menu.svg" alt="">
+                <img id="menuIcon" onclick="myFunction(this)" src="./images/header/icon-menu.svg" alt="">
             </div>
         </div>
-        <div class="contentMenu">
-            <ul id="toggle" class="hide">
+        <div id="contentMenu" class="contentMenu hide">
+            <ul>
                 <li>
-                    <a href="#" class="current">Workshop</a>
+                    <a href="#" class="">Workshop</a>
                 </li>
                 <li>
                     <a href="#" class="">TeckMeet</a>

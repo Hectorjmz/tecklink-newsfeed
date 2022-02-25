@@ -24,6 +24,7 @@ header {
 .logo {
     display: flex;
     font-weight: 500;
+    font-size: 1.5rem;
     letter-spacing: .08rem;
     color: white;
     align-items: center;
@@ -31,8 +32,8 @@ header {
 }
 
 .logo img {
-    height: 1.7rem;
-    margin-right: .2rem;
+    height: 2.2rem;
+    margin-right: .4rem;
 }
 
 .ham-menu {
@@ -40,21 +41,11 @@ header {
 }
 
 .ham-menu img {
-    height: 1.7rem;
-}
-
-#menuIcon:hover {
-    height: 1.75rem;
-    cursor: pointer;
-    transition: .2s;
+    height: 2.2rem;
 }
 
 .current {
     color: gray;
-}
-
-.hide {
-    display: none;
 }
 
 a {
@@ -64,8 +55,11 @@ a {
 
 ul {
     list-style-type: none;
-    line-height: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 5rem;
     font-size: 2rem;
+    font-weight: 300;
 }
 
 .contentMenu {
@@ -76,6 +70,16 @@ ul {
     height: 100%;
     color: white;
     background-color: #2B89EA;
+}
+
+.hide {
+    display: none;
+}
+
+.cont {
+    content: url("../images/header/x.svg");
+    height: 1.2rem !important;
+    margin-right: .7rem;
 }
 
 @media screen and (min-width: 675px) {
