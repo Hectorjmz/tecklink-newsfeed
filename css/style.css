@@ -95,7 +95,7 @@ ul {
 /* ******* */
 
 
-/* MAIN */
+/* MAIN TOP*/
 
 
 /* ----------------------------------------------------------------- */
@@ -105,7 +105,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    margin: 1rem 0;
+    margin: 1rem .8rem;
 }
 
 .profile-picture img {
@@ -138,9 +138,109 @@ hr {
     background-color: rgb(230, 230, 230);
 }
 
+
+/* ----------------------------------------------------------------- */
+
+
+/* MAIN TOP */
+
+
+/* ******* */
+
+
+/* NEWS FEED*/
+
+
+/* ----------------------------------------------------------------- */
+
+.feed {}
+
+.card {
+    margin: .5rem 0;
+    /* background-color: rgb(146, 140, 140); */
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 1rem;
+}
+
+.card-top-profile-picture {
+    display: flex;
+}
+
+.name-and-verified {
+    display: flex;
+    margin: auto .4rem;
+}
+
+.sponsored-nickname {
+    margin: auto .4rem;
+    font-weight: 100;
+    font-size: .8rem;
+}
+
+.name-and-verified img {
+    height: 1.2rem;
+}
+
+.card-text {
+    margin: 1rem;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+}
+
+.card-image img {
+    width: 100%;
+}
+
+.img-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F0F2F5;
+}
+
+.img-footer p:first-child {
+    font-weight: 100;
+    font-size: smaller;
+}
+
+.img-footer p:nth-child(2) {
+    font-weight: 500;
+}
+
+.img-footer p:nth-child(3) {
+    font-weight: 100;
+}
+
+.left-info {
+    margin: auto 1rem;
+}
+
+.learn-more {
+    margin: auto 1rem;
+    width: 7rem;
+}
+
+.learn-more button {
+    border: none;
+    padding: .3rem;
+    border-radius: .1rem;
+    box-shadow: 1px 1px 1px 1px rgb(109, 108, 108);
+}
+
 @media screen and (min-width: 675px) {
     .content {
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
+    }
+    .follow img {
+        content: url("../images/main/follow-desktop.png");
     }
 }
 
