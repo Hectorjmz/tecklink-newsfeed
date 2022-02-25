@@ -127,7 +127,7 @@ ul {
     height: 3rem;
     width: 70vw;
     border: none;
-    border-radius: 1rem;
+    border-radius: .5rem;
     font-size: 1rem;
     background-color: lightgray;
     opacity: .5;
@@ -157,9 +157,11 @@ hr {
 
 .feed {}
 
-.card {
+.card-sponsor {
+    padding-bottom: .2rem;
     margin: .5rem 0;
-    /* background-color: rgb(146, 140, 140); */
+    border-radius: .8rem;
+    box-shadow: 1px 1px 1px 1px lightgray;
 }
 
 .card-top {
@@ -232,9 +234,103 @@ hr {
 
 .learn-more button {
     border: none;
-    padding: .3rem;
+    padding: .5rem;
     border-radius: .1rem;
     box-shadow: 1px 1px 1px 1px rgb(109, 108, 108);
+}
+
+.likes-comments {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.likes {
+    display: flex;
+    align-items: flex-end;
+    font-size: smaller;
+}
+
+.likes img {
+    height: 1rem;
+    margin-right: -.1rem;
+}
+
+.likes p {
+    margin-left: .5rem;
+}
+
+.comments {
+    display: flex;
+    align-items: flex-end;
+    font-size: .7rem;
+    font-weight: 300;
+    gap: .7rem;
+}
+
+.comments img {
+    height: 1rem;
+}
+
+.like-comment {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+
+/* ----------------------------------------------------------------- */
+
+
+/* MAIN TOP */
+
+
+/* ******* */
+
+
+/* HORIZONTAL SCROLLER */
+
+
+/* ----------------------------------------------------------------- */
+
+.scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: .5rem;
+}
+
+.scrolling-wrapper {
+    -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper .scroller-card {
+    flex: 0 0 auto;
+}
+
+
+/* .scrolling-wrapper {
+    display: none;
+} */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.scroller-card img {
+    height: 20rem;
 }
 
 @media screen and (min-width: 675px) {
