@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
-    <script src="./script.js"></script>
 
     <title>Document</title>
 </head>
@@ -21,11 +20,39 @@
                 <img src="./images/header/TeckLink Logo.svg" alt="">
                 <span>TeckLink</span>
             </div>
+            <div id="menu-desktop" class="menu-desktop hide-on-desktop">
+                <div class="sub-menu">
+                    <img src="./images/header/Logo-workshop.svg" alt="">
+                    <p>Workshop</p>
+                </div>
+                <div class="sub-menu">
+                    <img src="./images/header/Logo-teckmeet.svg" alt="">
+                    <p>TeckMeet</p>
+                </div>
+                <div class="sub-menu">
+                    <img src="./images/header/Logo-job.svg" alt="">
+                    <p>Jobs</p>
+                </div>
+                <div class="sub-menu">
+                    <img src="./images/header/Logo-teckconnect.svg" alt="">
+                    <p>TeckConnect</p>
+                </div>
+                <div class="sub-menu">
+                    <img src="./images/header/Logo-voicecast.svg" alt="">
+                    <p>VoiceCast</p>
+                </div>
+                <div class="sub-menu">
+                    <img src="./images/header/Logo-messenger.svg" alt="">
+                    <p>Messenger</p>
+                </div>
+            </div>
             <div class="ham-menu">
                 <img id="menuIcon" onclick="myFunction(this)" src="./images/header/icon-menu.svg" alt="">
+                <img id="icon-profile-desktop" class="" src="./images/main/icon-profile.png" alt="">
             </div>
         </div>
-        <div id="contentMenu" class="contentMenu hide">
+
+        <div id="contentMenu" class="contentMenu hide-on-mobile">
             <ul>
                 <li>
                     <a href="#" class="">Workshop</a>
@@ -51,7 +78,7 @@
     <main>
         <div class="main-top">
             <div class="profile-picture">
-                <img src="./images/main/icon-profile.png" alt="">
+                <img id="icon-below" src="./images/main/icon-profile.png" alt="">
             </div>
             <div class="search-bar">
                 <form action="">
@@ -59,7 +86,8 @@
                 </form>
             </div>
             <div class="icon-chat">
-                <img src="./images/main/icon-chat.svg" alt="">
+                <img id="icon-post-mobile" src="./images/main/icon-chat.svg" alt="">
+                <img id="icon-post-desktop" src="./images/header/icon-post.svg" alt="">
             </div>
         </div>
         <hr>
@@ -149,15 +177,16 @@
                         <img src="./images/main/scroller/2.svg" alt="">
                     </div>
                     <div class="scroller-card">
-                        <img src="./images/main/scroller/1.svg" alt="">
+                        <img src="./images/main/scroller/3.svg" alt="">
                     </div>
                     <div class="scroller-card">
-                        <img src="./images/main/scroller/1.svg" alt="">
+                        <img src="./images/main/scroller/4.svg" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    <script src="./script.js"></script>
 </body>
 
 </html>
